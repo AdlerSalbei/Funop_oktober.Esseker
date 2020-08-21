@@ -13,3 +13,13 @@ class Extended_Local_EventHandlers {
         };
     };
 };
+
+class Extended_PreInit_EventHandlers {
+    class cbrn_preInit {
+        init = "[] call compile preProcessFileLineNumbers 'node_modules\cbrn\XEH_PreInit.sqf'";
+    };
+};
+
+class Extended_InitPost_EventHandlers {
+    #include "node_modules\cbrn\XEH_InitPost_eh.hpp"
+};
