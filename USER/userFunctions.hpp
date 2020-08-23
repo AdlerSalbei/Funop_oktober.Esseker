@@ -10,4 +10,8 @@ class GRAD_USER {
 		class cbrnStage {};
 		class diwakoFog {};
 	};
+	class acVtol {
+		file = "USER\functions\acVtol";
+		class teleportToAcAction {};
+	};
 };
