@@ -14,4 +14,8 @@ class GRAD_USER {
 		file = "USER\functions\acVtol";
 		class teleportToAcAction {};
 	};
+	class localEffects {
+		file = "USER\functions\localEffects";
+		class twitching {};
+	};
 };
