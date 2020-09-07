@@ -3,9 +3,9 @@ params ["_units"];
 private _horrorUnits = [];
 private _allLightCones = [];
 player setVariable ["showAnimation", false];
-
+/*
 cutText["", "WHITE OUT", 0.05];
-
+*/
 {	
 	if ((vehicle _x) == _x) then {
 		private _loadout = getUnitLoadout _x;
@@ -39,20 +39,16 @@ cutText["", "WHITE OUT", 0.05];
 	};
 
 } forEach _units;
-
+/*
 cutText["", "WHITE IN", 0.05];
-
+*/
 sleep 3;
-
+/*
 cutText["", "WHITE IN", 0.1];	
-
+*/
 {
 	deleteVehicle _x;	
-} forEach _allLightCones ;
-
-{
-	deleteVehicle _x;	
-} forEach _horrorUnits;
+} forEach (_allLightCones + _horrorUnits) ;
 
 {
 	_x hideObject false;

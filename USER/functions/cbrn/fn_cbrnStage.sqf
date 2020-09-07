@@ -18,15 +18,15 @@ switch (true) do {
 			diwako_ambientFogglets = true;
 
 			[
-				80, // ["_maxDist", 80, [0]],
-				20, // ["_minDist", 10, [0]],
-				10, // ["_amount", 15, [0]],
+				60, // ["_maxDist", 80, [0]],
+				8, // ["_minDist", 10, [0]],
+				15, // ["_amount", 15, [0]],
 				0.15, // ["_dropTimer", 0.15, [0]],
 				15, // ["_maxSize", 7, [0]],
 				5, // ["_minSize", 3, [0]],
 				5, // ["_height", -0.3, [0]],
 				0.07, // ["_transparency", 0.3, [0]],
-				[1,0.5,0.5], // ["_color", [1,1,1], [[]], 3],
+				[0.001,0.002,0.001], // ["_color", [1,1,1], [[]], 3],
 				nil, // ["_spawn", 15, [0]],
 				nil, // ["_maxLifetime", 15, [0]],
 				nil, // ["_minLifetime", 8, [0]],
